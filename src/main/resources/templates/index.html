@@ -7,6 +7,12 @@
   <body>
     <div class="container">
 
+      <!-- insert a header fragment -->
+        <div th:replace="fragments/header :: header"></div>
+      <!-- insert a productsTable fragment -->
+        <div th:replace="fragments/productsTable :: productsTable"></div>
+
+
     </div>
   </body>
 </html>
